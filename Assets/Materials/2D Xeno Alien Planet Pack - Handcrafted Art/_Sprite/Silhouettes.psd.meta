@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: fb6fefa336e408049a0bb8c5194ff7d7
+timeCreated: 1474636496
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Silhouettes_0
+    21300002: Silhouettes_1
+    21300004: Silhouettes_2
+    21300006: Silhouettes_3
+    21300008: Silhouettes_4
+    21300010: Silhouettes_5
+    21300012: Silhouettes_6
+    21300014: Silhouettes_7
+    21300016: Silhouettes_8
+    21300018: Silhouettes_9
+    21300020: Silhouettes_10
+    21300022: Silhouettes_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Silhouettes_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 3099
+        width: 480
+        height: 973
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Silhouettes_1
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 2643
+        width: 410
+        height: 1400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Silhouettes_2
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 3803
+        width: 186
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Silhouettes_3
+      rect:
+        serializedVersion: 2
+        x: 2935
+        y: 3803
+        width: 177
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Silhouettes_4
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 3019
+        width: 2295
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Silhouettes_5
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 2232
+        width: 710
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Silhouettes_6
+      rect:
+        serializedVersion: 2
+        x: 2894
+        y: 2720
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Silhouettes_7
+      rect:
+        serializedVersion: 2
+        x: 3029
+        y: 1486
+        width: 942
+        height: 1410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Silhouettes_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1736
+        width: 1783
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Silhouettes_9
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 1470
+        width: 938
+        height: 1179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Silhouettes_10
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 2
+        width: 2378
+        height: 1310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Silhouettes_11
+      rect:
+        serializedVersion: 2
+        x: 3277
+        y: 9
+        width: 731
+        height: 1331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

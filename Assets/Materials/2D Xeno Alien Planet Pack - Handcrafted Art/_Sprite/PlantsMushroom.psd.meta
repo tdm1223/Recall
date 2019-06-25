@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 1ede6579533779a469df372658d1c686
+timeCreated: 1481682978
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PlantsMushroom_0
+    21300002: PlantsMushroom_1
+    21300004: PlantsMushroom_2
+    21300006: PlantsMushroom_3
+    21300008: PlantsMushroom_4
+    21300010: PlantsMushroom_5
+    21300012: PlantsMushroom_6
+    21300014: PlantsMushroom_7
+    21300016: PlantsMushroom_8
+    21300018: PlantsMushroom_9
+    21300020: PlantsMushroom_10
+    21300022: PlantsMushroom_11
+    21300024: PlantsMushroom_12
+    21300026: PlantsMushroom_13
+    21300028: PlantsMushroom_14
+    21300030: PlantsMushroom_15
+    21300032: PlantsMushroom_16
+    21300034: PlantsMushroom_17
+    21300036: PlantsMushroom_18
+    21300038: PlantsMushroom_19
+    21300040: PlantsMushroom_20
+    21300042: PlantsMushroom_21
+    21300044: PlantsMushroom_22
+    21300046: PlantsMushroom_23
+    21300048: PlantsMushroom_24
+    21300050: PlantsMushroom_25
+    21300052: PlantsMushroom_26
+    21300054: PlantsMushroom_27
+    21300056: PlantsMushroom_28
+    21300058: PlantsMushroom_29
+    21300060: PlantsMushroom_30
+    21300062: PlantsMushroom_31
+    21300064: PlantsMushroom_32
+    21300066: PlantsMushroom_33
+    21300068: PlantsMushroom_34
+    21300070: PlantsMushroom_35
+    21300072: PlantsMushroom_36
+    21300074: PlantsMushroom_37
+    21300076: PlantsMushroom_38
+    21300078: PlantsMushroom_39
+    21300080: PlantsMushroom_40
+    21300082: PlantsMushroom_41
+    21300084: PlantsMushroom_42
+    21300086: PlantsMushroom_43
+    21300088: PlantsMushroom_44
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlantsMushroom_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 3537
+        width: 732
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_1
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 3268
+        width: 532
+        height: 716
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_2
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 3773
+        width: 374
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_3
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 3302
+        width: 306
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_4
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 3345
+        width: 1024
+        height: 693
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_5
+      rect:
+        serializedVersion: 2
+        x: 3078
+        y: 3356
+        width: 439
+        height: 449
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_6
+      rect:
+        serializedVersion: 2
+        x: 3571
+        y: 3365
+        width: 504
+        height: 633
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_7
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 2119
+        width: 1409
+        height: 1116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_8
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 2757
+        width: 552
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_9
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 2692
+        width: 709
+        height: 537
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_10
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 1949
+        width: 790
+        height: 605
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_11
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 2066
+        width: 474
+        height: 546
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_12
+      rect:
+        serializedVersion: 2
+        x: 3405
+        y: 869
+        width: 691
+        height: 1101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_13
+      rect:
+        serializedVersion: 2
+        x: 3010
+        y: 1422
+        width: 220
+        height: 340
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_14
+      rect:
+        serializedVersion: 2
+        x: 3122
+        y: 900
+        width: 259
+        height: 424
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_15
+      rect:
+        serializedVersion: 2
+        x: 2806
+        y: 864
+        width: 273
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_16
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 910
+        width: 319
+        height: 399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_17
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 862
+        width: 335
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_18
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 639
+        width: 338
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_19
+      rect:
+        serializedVersion: 2
+        x: 3084
+        y: 575
+        width: 502
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_20
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 675
+        width: 306
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_21
+      rect:
+        serializedVersion: 2
+        x: 2821
+        y: 379
+        width: 368
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_22
+      rect:
+        serializedVersion: 2
+        x: 3419
+        y: 180
+        width: 546
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_23
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 35
+        width: 825
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_24
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 370
+        width: 452
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_25
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 389
+        width: 460
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_26
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 0
+        width: 787
+        height: 326
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_27
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 379
+        width: 481
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_28
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 606
+        width: 476
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_29
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 827
+        width: 551
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_30
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1068
+        width: 721
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_31
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 1074
+        height: 379
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_32
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 654
+        width: 1002
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_33
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 882
+        width: 419
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_34
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 925
+        width: 228
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_35
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 932
+        width: 220
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_36
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1188
+        width: 996
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_37
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1647
+        width: 852
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_38
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1502
+        width: 996
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_39
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 2563
+        width: 487
+        height: 688
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_40
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2243
+        width: 540
+        height: 1049
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_41
+      rect:
+        serializedVersion: 2
+        x: 2673
+        y: 1396
+        width: 276
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_42
+      rect:
+        serializedVersion: 2
+        x: 2353
+        y: 1384
+        width: 294
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: PlantsMushroom_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2855
+        width: 560
+        height: 407
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 17, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlantsMushroom_44
+      rect:
+        serializedVersion: 2
+        x: 3393
+        y: 1431
+        width: 636
+        height: 562
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

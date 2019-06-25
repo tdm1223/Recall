@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: a56d406a2c5544e4db1dfbc4916f7633
+timeCreated: 1474643811
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Silhouettes3_0
+    21300002: Silhouettes3_1
+    21300004: Silhouettes3_2
+    21300006: Silhouettes3_3
+    21300008: Silhouettes3_4
+    21300010: Silhouettes3_5
+    21300012: Silhouettes3_6
+    21300014: Silhouettes3_7
+    21300016: Silhouettes3_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Silhouettes3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2774
+        width: 959
+        height: 1317
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Silhouettes3_1
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 3663
+        width: 1913
+        height: 433
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Silhouettes3_2
+      rect:
+        serializedVersion: 2
+        x: 3062
+        y: 2667
+        width: 1034
+        height: 1410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Silhouettes3_3
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 1271
+        width: 367
+        height: 754
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Silhouettes3_4
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1234
+        width: 1066
+        height: 814
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Silhouettes3_5
+      rect:
+        serializedVersion: 2
+        x: 3156
+        y: 1327
+        width: 297
+        height: 707
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Silhouettes3_6
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 33
+        width: 1689
+        height: 1261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Silhouettes3_7
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 2160
+        width: 2365
+        height: 1298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - serializedVersion: 2
+      name: Silhouettes3_8
+      rect:
+        serializedVersion: 2
+        x: 2043
+        y: 24
+        width: 2025
+        height: 1205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
