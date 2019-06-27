@@ -135,7 +135,7 @@ namespace UnityStandardAssets._2D
         void Flip(int flag)
         {
             Vector3 theScale = transform.localScale;
-            theScale.x = flag;
+            theScale.x = flag*0.7f;
             transform.localScale = theScale;
         }
 
