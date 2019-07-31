@@ -4,7 +4,7 @@
 
 - 개발 엔진 : Unity5.6.6
 - 개발 언어 : C#
-- 플랫폼 : PC, Android
+- 플랫폼 : Android
 
 --- 
 

@@ -6,6 +6,7 @@ using UnityStandardAssets.CrossPlatformInput;
 
 namespace UnityStandardAssets._2D
 {
+
     public class PlayerController : MonoBehaviour
     {
         private Rigidbody2D rigidBody;
@@ -20,11 +21,12 @@ namespace UnityStandardAssets._2D
         private float xMove;
         private bool isJumping;
         private int jumpCount;
-        public int jumpCountMax;  
+        public int jumpCountMax;    // Á¡ÇÁ È½¼ö
         [Header("Sound variables")]
         public AudioSource recallSound;
         public AudioSource flashSound;
         public AudioSource runningSound;
+
         [Header("Jump variables")]
         public float jumpForce;
 
@@ -64,22 +66,17 @@ namespace UnityStandardAssets._2D
         {
             if (!isJumping)
             {
-                isJumping = CrossPlatformInputManager.GetButtonDown("Jump");
+				isJumping = CrossPlatformInputManager.GetButtonDown("Jump");
             }
 
-            if (CrossPlatformInputManager.GetButtonDown("Flash"))
-            {
-                Debug.Log("flash");
+			if (CrossPlatformInputManager.GetButtonDown ("Flash"))
                 flash();
-            }
 
-            if (CrossPlatformInputManager.GetButtonDown("Recall"))
+			if (CrossPlatformInputManager.GetButtonDown ("Recall"))
             {
                 recallFlag = true;
                 if (recallAmount > 0)
-                {
                     FindObjectOfType<RecallPanel>().UpdateRecallIcon(recallAmount - 1);
-                }
             }
         }
         void FixedUpdate()
@@ -98,47 +95,60 @@ namespace UnityStandardAssets._2D
         }
         void Move()
         {
-            Vector3 velocity;
-            if (Input.GetAxis("Horizontal") < 0)
-            {
+            float xMove = 0f;
+            if (CrossPlatformInputManager.GetButton("Left"))
+                xMove = -1f;
+            if (CrossPlatformInputManager.GetButton("Right"))
+                xMove = 1f;
+
+            animator.SetFloat("Speed", Mathf.Abs(xMove));
+            rigidBody.velocity = new Vector2(xMove * maxSpeed, rigidBody.velocity.y);
+
+            if (xMove > 0 && GetComponent<Transform>().localScale.x < 0 || xMove < 0 && GetComponent<Transform>().localScale.x > 0)
+                Flip();
+
+            if (xMove != 0.0f && !runningSound.isPlaying && !isJumping)
                 runningSound.Play();
-                velocity = Vector3.left;
-                Flip(-1);
-            }
-            else if (Input.GetAxis("Horizontal") > 0)
+            if ((isGround && xMove == 0.0f) || (!isGround && isJumping))
+                runningSound.Stop();
+
+            if (Mathf.Abs(rigidBody.velocity.x) > maxSpeed)
             {
-                runningSound.Play();
-                velocity = Vector3.right;
-                Flip(1);
+                Vector2 newVelocity;
+                newVelocity.x = Mathf.Sign(rigidBody.velocity.x) * maxSpeed;
+                newVelocity.y = rigidBody.velocity.y;
+
+                rigidBody.velocity = newVelocity;
             }
             else
             {
-                velocity = Vector3.zero;
-                runningSound.Stop();
+                Vector2 newVelocity = rigidBody.velocity;
+
+                newVelocity.x *= 0.9f;
+                rigidBody.velocity = newVelocity;
             }
-            transform.position += velocity * maxSpeed * Time.deltaTime;
-            animator.SetFloat("Speed", Mathf.Abs(velocity.x));
         }
 
         void Jump()
         {
             if (isJumping && jumpCount > 0)
             {
-                jumpCount--;
-                rigidBody.velocity = new Vector2(0f, 0f);
+				jumpCount--;
+                rigidBody.velocity = new Vector2(0f, 0f);  // Á¡ÇÁ º¸Á¤
                 isGround = false;
                 animator.SetBool("Ground", isGround);
                 rigidBody.AddForce(new Vector2(0f, jumpForce));
             }
         }
 
-        void Flip(int flag)
+        void Flip()
         {
             Vector3 theScale = transform.localScale;
-            theScale.x = flag*0.7f;
+            theScale.x *= -1;
             transform.localScale = theScale;
         }
 
+        //¿ªÇà ±¸Çö ºÎºÐ
         void recall()
         {
             if (!recallFlag)
@@ -194,37 +204,28 @@ namespace UnityStandardAssets._2D
             }
         }
 
+        //Á¡¸ê ±¸Çö ºÎºÐ
         void flash()
         {
-            float horizontalDirection = 0f; 
+            float horizontalDirection = 0f; //Á¡¸ê ÁÂ¿ì¹æÇâ ¼³Á¤. ¾ç¼ö¸é ¿ìÃø, À½¼ö¸é ÁÂÃø
             if (CrossPlatformInputManager.GetButton("Left"))
-            { 
-                horizontalDirection = -1f; 
-            }
+                horizontalDirection = -1f;
             if (CrossPlatformInputManager.GetButton("Right"))
-            { 
-                horizontalDirection = 1f; 
-            }
+                horizontalDirection = 1f;
 
-            if (flashCount <= 0 || horizontalDirection == 0)
-            { 
-                return;
-            }
+
+            if (flashCount <= 0 || horizontalDirection == 0) return;
 
             flashSound.Play();
+
             if (horizontalDirection > 0)
             {
                 Vector2 rvt = new Vector2(flashDistance, 0);
                 RaycastHit2D hit = Physics2D.Raycast(new Vector2((rigidBody.transform.position.x + rayControl), rigidBody.transform.position.y), rvt, flashDistance);
-                Debug.Log(hit.collider);
                 if (hit.collider == null)
-                {
-                    transform.position += new Vector3(flashDistance, 0, 0);
-                }
+                    rigidBody.MovePosition((Vector2)transform.position + new Vector2(flashDistance, 0));
                 else if (hit.collider != null)
-                {
-                    transform.position = hit.point;
-                }
+                    rigidBody.MovePosition(hit.point);
 
             }
             else if (horizontalDirection < 0)
@@ -232,19 +233,26 @@ namespace UnityStandardAssets._2D
                 Vector2 rvt = new Vector2(-flashDistance, 0);
                 RaycastHit2D hit = Physics2D.Raycast(new Vector2((rigidBody.transform.position.x - rayControl), rigidBody.transform.position.y), rvt, flashDistance);
                 if (hit.collider == null)
-                {
-                    transform.position += new Vector3(-flashDistance, 0, 0);
-                }
+                    rigidBody.MovePosition((Vector2)transform.position + new Vector2(-flashDistance, 0));
                 else if (hit.collider != null)
-                {
-                    transform.position = hit.point;
-                }
+                    rigidBody.MovePosition(hit.point);
             }
 
             flashCount--;
             GameObject.FindObjectOfType<FlashPanel>().UpdateFlashIcon(flashCount);
         }
 
+        void UseFlash(float flashDistance, float rayControl)
+        {
+            Vector2 distance = new Vector2(flashDistance, 0);
+            Vector2 rayDistance = new Vector2(rigidBody.transform.position.x + rayControl, rigidBody.transform.position.y);
+            RaycastHit2D hit = Physics2D.Raycast(rayDistance, distance, flashDistance);
+            if (hit.collider == null)
+                rigidBody.MovePosition((Vector2)transform.position + new Vector2(flashDistance, 0));
+            else if (hit.collider != null)
+                rigidBody.MovePosition(hit.point);
+
+        }
         void SetRecallAnim()
         {
             animator.SetBool("Recall", !animator.GetBool("Recall"));
@@ -254,7 +262,7 @@ namespace UnityStandardAssets._2D
             return animator.GetBool("Recall");
         }
 
-        void CheckGrounded()
+		void CheckGrounded()
         {
             isGround = false;
             Collider2D[] colliders = Physics2D.OverlapCircleAll(groundCheck.position, groundedRadius, whatIsGround);
@@ -265,7 +273,7 @@ namespace UnityStandardAssets._2D
             }
 
             if (isGround)
-                jumpCount = jumpCountMax;   // ï¿½ï¿½ï¿½ï¿½ È½ï¿½ï¿½ ï¿½Ê±ï¿½È­
+                jumpCount = jumpCountMax;   // Á¡ÇÁ È½¼ö ÃÊ±âÈ­
 
             animator.SetBool("Ground", isGround);
 
