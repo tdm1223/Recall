@@ -1,6 +1,6 @@
 ## Recall
 
-<img src="./img/title.png">
+![title](https://user-images.githubusercontent.com/21440957/64507756-85db6500-d316-11e9-8813-1b589c6a3228.png)
 
 - 개발 엔진 : Unity5.6.6
 - 개발 언어 : C#
@@ -15,4 +15,5 @@
 
  - 두 가지 기술을 사용하여 장애물(버튼/문)을 통과하며 스테이지를 클리어하는 액션 퍼즐 게임입니다. 
 
-<img src="./img/desc1.png">
+![desc1](https://user-images.githubusercontent.com/21440957/64507737-7bb96680-d316-11e9-98ee-54c06fddf222.png)
+
