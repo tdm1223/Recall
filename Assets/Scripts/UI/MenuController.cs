@@ -1,14 +1,11 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Collections;
 using UnityStandardAssets.CrossPlatformInput;
-
-public class MenuController : MonoBehaviour {
-
+public class MenuController : MonoBehaviour
+{
     GameObject escMenu;
     GameObject optionMenu;
     AudioSource buttonSound;
-
     void Start()
     {
         escMenu = transform.Find("MenuPanel").gameObject;
@@ -94,6 +91,4 @@ public class MenuController : MonoBehaviour {
     {
         optionMenu.transform.Find("Volume").GetComponent<UnityEngine.UI.Text>().text = "Master Volume - " + (AudioListener.volume * 100).ToString("f2") + "%";
     }
-
-    
 }

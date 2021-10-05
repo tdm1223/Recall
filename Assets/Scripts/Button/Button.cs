@@ -11,7 +11,6 @@ public class Button : MonoBehaviour
     public float sec;
 
     IEnumerator UpDownCoroutine;
-
     protected virtual void Start()
     {
         sec = 5f;
@@ -19,8 +18,8 @@ public class Button : MonoBehaviour
         downY = startPosition.y - (float)0.5;
         DownSound = GetComponent<AudioSource>();
     }
-
-    protected virtual void OnTriggerEnter2D(Collider2D other)     //밟았는지 체크
+    //밟았는지 체크
+    protected virtual void OnTriggerEnter2D(Collider2D other)
     {
         if (!pressCheck)
         {
@@ -29,8 +28,8 @@ public class Button : MonoBehaviour
             Count();
         }
     }
-
-    public void Down()      //버튼 내려가는 함수
+    //버튼 내려가는 함수
+    public void Down()
     {
         DownSound.Play();
 
@@ -46,8 +45,8 @@ public class Button : MonoBehaviour
             StartCoroutine(UpDownCoroutine);
         }
     }
-
-    public void Up()        //버튼 올라가는 함수
+    //버튼 올라가는 함수
+    public void Up()
     {
         if (UpDownCoroutine == null)
         {
@@ -60,18 +59,16 @@ public class Button : MonoBehaviour
             UpDownCoroutine = up();
             StartCoroutine(UpDownCoroutine);
         }
-    }    
-  
+    }
     public bool ReturnPress()
     {
         return pressCheck;
     }
-
-    protected void Count()        //시간 체크해서 버튼 올라오는 함수
+    //시간 체크해서 버튼 올라오는 함수
+    protected void Count()
     {
         StartCoroutine(count(sec));
     }
-
     protected virtual IEnumerator up()
     {
         GetComponent<SpriteRenderer>().color = Color.white;
@@ -81,7 +78,6 @@ public class Button : MonoBehaviour
             yield return null;
         }
     }
-
     protected virtual IEnumerator down()
     {
         GetComponent<SpriteRenderer>().color = Color.red;
@@ -91,7 +87,6 @@ public class Button : MonoBehaviour
             yield return null;
         }
     }
-
     protected IEnumerator count(float sec)
     {
         StopCoroutine("count");

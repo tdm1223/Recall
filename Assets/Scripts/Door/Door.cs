@@ -1,17 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-
-public class Door : MonoBehaviour {
+public class Door : MonoBehaviour
+{
+    //방향
     public enum Arrow
-    {     //방향
+    {
         Up,
         Down,
         Left,
         Right
     }
 
-    public enum KindOfDoorWhichArrowNeed     //장애물 종류 치워야하는 방향 기준이름
+    //장애물 종류 치워야하는 방향 기준이름
+    public enum KindOfDoorWhichArrowNeed
     {
         UpNeed,
         DownNeed,
@@ -28,30 +30,29 @@ public class Door : MonoBehaviour {
     public List<Button> buttonList;
     bool close = true;
 
-    void Awake()
+    public void Awake()
     {
         OpenSound = GetComponent<AudioSource>();
     }
 
-    void Update()
+    public void Update()
     {
         switch (kindOfDoorWhichArrowNeed)
         {
             case KindOfDoorWhichArrowNeed.UpNeed:
-                AllButtonCheck(Arrow.Up,Arrow.Down);
+                AllButtonCheck(Arrow.Up, Arrow.Down);
                 break;
             case KindOfDoorWhichArrowNeed.DownNeed:
                 AllButtonCheck(Arrow.Down, Arrow.Up);
                 break;
             case KindOfDoorWhichArrowNeed.LeftNeed:
-                AllButtonCheck(Arrow.Left,Arrow.Right);
+                AllButtonCheck(Arrow.Left, Arrow.Right);
                 break;
             case KindOfDoorWhichArrowNeed.RightNeed:
-                AllButtonCheck(Arrow.Right,Arrow.Left);
+                AllButtonCheck(Arrow.Right, Arrow.Left);
                 break;
         }
     }
-
     public void AllButtonCheck(Arrow allPress, Arrow reverse)   //버튼 모두 클릭되면 움직임, 버튼 하나라도 풀리면 반대로 다시
     {
         int i = 0;
@@ -100,7 +101,6 @@ public class Door : MonoBehaviour {
             }
         }
     }
-
     public void Move(Arrow arrow)
     {
         switch (arrow)
@@ -121,11 +121,10 @@ public class Door : MonoBehaviour {
                 break;
         }
     }
-    
     IEnumerator MoveAction(Arrow arrow)
     {
         float sum = 0;
-        Vector2 arrowVector= new Vector2();
+        Vector2 arrowVector = new Vector2();
         switch (arrow)
         {
             case Arrow.Up:

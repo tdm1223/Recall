@@ -5,8 +5,6 @@ using UnityEngine.SceneManagement;
 using UnityStandardAssets.CrossPlatformInput;
 
 public class GameController : MonoBehaviour {
-
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")
@@ -14,7 +12,6 @@ public class GameController : MonoBehaviour {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
-    
     void Update()
     {
 
@@ -24,5 +21,4 @@ public class GameController : MonoBehaviour {
         }
 
     }
-
 }

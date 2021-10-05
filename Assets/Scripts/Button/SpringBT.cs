@@ -3,15 +3,13 @@ using System.Collections;
 
 public class SpringBT : Button
 {
-    public GameObject spring;    
-
+    public GameObject spring;
     protected override void Start()
     {
         base.Start();
         spring.GetComponent<BoxCollider2D>().enabled = false;
         sec = 6f;
     }
-    
     protected override IEnumerator up()
     {
         while (transform.localPosition.y <= startPosition.y)

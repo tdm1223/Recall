@@ -1,5 +1,3 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
@@ -66,13 +64,13 @@ namespace UnityStandardAssets._2D
         {
             if (!isJumping)
             {
-				isJumping = CrossPlatformInputManager.GetButtonDown("Jump");
+                isJumping = CrossPlatformInputManager.GetButtonDown("Jump");
             }
 
-			if (CrossPlatformInputManager.GetButtonDown ("Flash"))
+            if (CrossPlatformInputManager.GetButtonDown("Flash"))
                 flash();
 
-			if (CrossPlatformInputManager.GetButtonDown ("Recall"))
+            if (CrossPlatformInputManager.GetButtonDown("Recall"))
             {
                 recallFlag = true;
                 if (recallAmount > 0)
@@ -133,7 +131,7 @@ namespace UnityStandardAssets._2D
         {
             if (isJumping && jumpCount > 0)
             {
-				jumpCount--;
+                jumpCount--;
                 rigidBody.velocity = new Vector2(0f, 0f);  // 점프 보정
                 isGround = false;
                 animator.SetBool("Ground", isGround);
@@ -262,7 +260,7 @@ namespace UnityStandardAssets._2D
             return animator.GetBool("Recall");
         }
 
-		void CheckGrounded()
+        void CheckGrounded()
         {
             isGround = false;
             Collider2D[] colliders = Physics2D.OverlapCircleAll(groundCheck.position, groundedRadius, whatIsGround);
